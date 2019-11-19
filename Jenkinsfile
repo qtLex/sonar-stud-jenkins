@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage("Чистка деректории перед стартом") {
             deleteDir()
-        Ъ
+        }
         stage("Подготовка конфигурации к анализу") {
             steps {
                 timestamps {
